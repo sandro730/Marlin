@@ -1,0 +1,84 @@
+22:04:39.263 : Printer reset detected - initializing
+22:04:39.263 : echo:start
+22:04:39.263 : External Reset
+22:04:39.263 : Marlin 2.0.7.2
+22:04:39.267 : echo: Last Updated: 2020-10-15 | Author: (oxivanisher)
+22:04:39.267 : echo:Compiled: Feb  6 2021
+22:04:39.271 : echo: Free Memory: 5507  PlannerBufferBytes: 1136
+22:04:39.276 : DIGIPOTS Loading
+22:04:39.280 : DIGIPOTS Loaded
+22:04:39.287 : DIGIPOTS Loading
+22:04:39.288 : DIGIPOTS Loaded
+22:04:39.293 : echo:V82 stored settings retrieved (709 bytes; crc 52993)
+22:04:39.439 : N1 M110*34
+22:04:39.439 : N2 M115*36
+22:04:39.439 : N3 M105*36
+22:04:39.439 : N4 M114*35
+22:04:39.472 : N5 M111 S6*98
+22:04:39.472 : N6 T0*60
+22:04:39.472 : N7 M80*28
+22:04:39.472 : N8 M105*47
+22:04:39.563 : FIRMWARE_NAME:Marlin 2.0.7.2 (Feb  6 2021 21:34:12) SOURCE_CODE_URL:https://github.com/MarlinFirmware/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:Kossel k800XL EXTRUDER_COUNT:1 UUID:cede2a2f-41a2-4748-9b12-c55c62f367ff
+22:04:39.563 : Cap:SERIAL_XON_XOFF:0
+22:04:39.563 : Cap:BINARY_FILE_TRANSFER:0
+22:04:39.563 : N9 M220 S100*104
+22:04:39.563 : N10 M221 S100*81
+22:04:39.567 : Cap:EEPROM:1
+22:04:39.567 : Cap:VOLUMETRIC:1
+22:04:39.567 : Cap:AUTOREPORT_TEMP:1
+22:04:39.567 : Cap:PROGRESS:0
+22:04:39.567 : Cap:PRINT_JOB:1
+22:04:39.567 : Cap:AUTOLEVEL:0
+22:04:39.567 : Cap:RUNOUT:0
+22:04:39.571 : Cap:Z_PROBE:1
+22:04:39.571 : Cap:LEVELING_DATA:0
+22:04:39.571 : Cap:BUILD_PERCENT:0
+22:04:39.571 : Cap:SOFTWARE_POWER:0
+22:04:39.575 : Cap:TOGGLE_LIGHTS:0
+22:04:39.575 : Cap:CASE_LIGHT_BRIGHTNESS:0
+22:04:39.575 : Cap:EMERGENCY_PARSER:0
+22:04:39.575 : Cap:PROMPT_SUPPORT:0
+22:04:39.575 : Cap:SDCARD:0
+22:04:39.579 : Cap:AUTOREPORT_SD_STATUS:0
+22:04:39.579 : Cap:LONG_FILENAME:0
+22:04:39.579 : Cap:THERMAL_PROTECTION:1
+22:04:39.579 : Cap:MOTION_MODES:0
+22:04:39.579 : Cap:ARCS:1
+22:04:39.583 : Cap:BABYSTEPPING:0
+22:04:39.583 : Cap:CHAMBER_TEMPERATURE:0
+22:04:39.583 : N11 M111 S6*87
+22:04:39.587 : X:0.00 Y:0.00 Z:330.00 E:0.00 Count A:65416 B:65416 C:65416
+22:04:39.587 : N12 T0*9
+22:04:39.587 : N13 M155 S1*82
+22:04:39.592 : echo:DEBUG:INFO,ERRORS
+22:04:39.592 : echo:Unknown command: "M80"
+22:04:39.596 : echo:DEBUG:INFO,ERRORS
+22:04:48.248 : N14 G28*38
+22:04:52.838 : X:0.00 Y:0.00 Z:203.32 E:0.00 Count A:52749 B:52749 C:52749
+22:04:53.089 : N15 M501*19
+22:04:53.099 : DIGIPOTS Loading
+22:04:53.099 : DIGIPOTS Loaded
+22:04:53.108 : DIGIPOTS Loading
+22:04:53.112 : DIGIPOTS Loaded
+22:04:53.116 : echo:V82 stored settings retrieved (709 bytes; crc 52993)
+22:04:53.120 : echo:  G21    ; Units in mm (mm)
+22:04:53.120 : echo:; Filament settings: Disabled
+22:04:53.120 : echo:  M200 S0 D1.75
+22:04:53.120 : echo:; Steps per unit:
+22:04:53.125 : echo: M92 X100.00 Y100.00 Z100.00 E158.00
+22:04:53.125 : echo:; Maximum feedrates (units/s):
+22:04:53.129 : echo:  M203 X200.00 Y200.00 Z200.00 E25.00
+22:04:53.129 : echo:; Maximum Acceleration (units/s2):
+22:04:53.133 : echo:  M201 X9000.00 Y9000.00 Z9000.00 E10000.00
+22:04:53.137 : echo:; Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+22:04:53.137 : echo:  M204 P2000.00 R3000.00 T3000.00
+22:04:53.141 : echo:; Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_x_jerk> Y<max_y_jerk> Z<max_z_jerk> E<max_e_jerk>
+22:04:53.145 : echo:  M205 B20000.00 S0.00 T0.00 X10.00 Y10.00 Z10.00 E20.00
+22:04:53.145 : echo:; Endstop adjustment:
+22:04:53.149 : echo:  M666 X-0.19 Y0.00 Z-0.52
+22:04:53.154 : echo:; Delta settings: L<diagonal rod> R<radius> H<height> S<segments per sec> XYZ<tower angle trim> ABC<rod trim>
+22:04:53.158 : echo:  M665 L374.85 R188.23 H303.24 S160.00 X0.30 Y0.23 Z-0.53 A0.00 B0.00 C0.00
+22:04:53.158 : echo:; PID settings:
+22:04:53.158 : echo:  M301 P22.04 I1.65 D73.67
+22:04:53.158 : echo:; Z-Probe Offset (mm):
+22:04:53.161 : echo:  M851 X6.00 Y23.50 Z-7.37
